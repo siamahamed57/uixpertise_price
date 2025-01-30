@@ -225,6 +225,11 @@
 .black{
     color: black;
 }
+.solid {
+    border: 1px solid #E1D9E4;
+  }
+  
+
 @media (max-width:1400px) {
     .container {
         width:100%;
