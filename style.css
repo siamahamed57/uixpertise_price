@@ -236,9 +236,10 @@
     .pricing-container {
         flex-direction: column;
         align-items: center;
+        
     }
     .pricing-card {
-        width:380px;
+        width:371px;
         height: 800px;
         border-radius: 16px;
         padding: 20px;
