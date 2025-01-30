@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pricing Table</title>
+</head>
+<body>
+    <div class="container">
+        <div class="tabs">
+            <button class="tab active" onclick="switchTab('design')">Design</button>
+            <button class="tab" onclick="switchTab('development')">Development</button>
+            <button class="tab" onclick="switchTab('marketing')">Marketing</button>
+            <button class="tab" onclick="switchTab('ai')">AI</button>
+        </div>
+        <div class="toggle">
+            <div class="toggle_item">
+                <button class="toggle-btn active" onclick="togglePricing('monthly')">Monthly</button>
+                <button class="toggle-btn" onclick="togglePricing('yearly')">Yearly</button>
+            </div>
+        </div>
+        <div class="pricing-container active-container" id="design">
+            <div class="pricing-card"><h2 class="title_32">Design Starter</h2>
+            <p class="title_14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <hr class="solid">
+            <p class="title_16 mt20">From</p>
+            <span class="price" data-monthly="550" data-yearly="6000">$550</span>
+            <span class="monthly-text title_16 mb10">/Per Monthly</span>
+                <span class="yearly-text title_16 mb10" style="display: none;">/Per Yearly</span>
+            </p>
+            <p class="title_16 mb20">Per month <span class="italic">Billed Manually</span></p>
+            <hr class="solid">
+            <p class="title title_24 mt20 mb20">Team configuration</p>
+            <div class="icon-title mb20">
+                <div class="icon_title-item">
+                    <img src="checkmark-circle-02 (3).png" alt="">
+                    <p class="title_16_2">1 Senior Designer</p>
+                </div>
+                <div class="icon_title-item">
+                    <img src="checkmark-circle-02 (3).png" alt="">
+                    <p class="title_16_2">1 Product Manager</p>
+                </div>
+            </div>
+            <hr class="solid">
+            <p class="title title_24 mt10 mb20">Your package Includes:</p>
+            <div class="icon_title2">
+                <div class="icon_title_2_item">
+                    <img src="checkmark-circle-02 (3).png" alt="">
+                    <p class="title_16">1 Senior Designer</p>
+                </div>
+                <div class="icon_title_2_item">
+                    <img src="checkmark-circle-02 (3).png" alt="">
+                    <p  class="title_16">1 Product Manager</p>
+                </div>
+                <div class="icon_title_2_item">
+                    <img src="checkmark-circle-02 (3).png" alt="">
+                    <p class="title_16">1 Product Manager</p>
+                </div>
+                <div class="icon_title_2_item">
+                    <img src="checkmark-circle-02 (3).png" alt="">
+                    <p class="title_16">1 Product Manager</p>
+                </div>
+                <div class="icon_title_2_item">
+                    <img src="checkmark-circle-02 (3).png" alt="">
+                    <p class="title_16">1 Product Manager</p>
+                </div>
+                <div class="icon_title_2_item">
+                    <img src="checkmark-circle-02 (3).png" alt="">
+                    <p class="title_16">1 Product Manager</p>
+                </div>
+                <div class="icon_title_2_item">
+                    <img src="checkmark-circle-02 (3).png" alt="">
+                    <p class="title_16">1 Product Manager</p>
+                </div>
+                <div class="icon_title_2_item">
+                    <img src="checkmark-circle-02 (3).png" alt="">
+                    <p class="title_16">1 Product Manager</p>
+                </div>
+            </div>
+            <a href="#" class="contact-btn">
+                <span>Contact Us</span>
+                <img src="arrow-right-02 (3).svg" alt="Arrow Icon">
+            </a>
+            
+            </div>
+            
+
+            <div class="pricing-card growth">
+                <h2 class="title_32 white">Design Growth</h2>
+                <span class="customer-fav black">Customer Favorite</span>
+                <p class="title_14 mt-20 white"> </style>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr class="solid">
+                <p class="title_16 mt20 white">From</p>
+                <span class="price white" data-monthly="2050" data-yearly="12000">$2050</span>
+                <span class="monthly-text title_16 mb10 white">/Per Monthly</span>
+                <span class="yearly-text title_16 mb10 white" style="display: none;">/Per Yearly</span>
+                </p>
+                <p class="title_16 mb20 white">Per month <span class="italic white">Billed Manually</span></p>
+                <hr class="solid">
+                <p class="title title_24 mt20 mb20 white">Team configuration</p>
+                <div class="icon-title mb20">
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2 white ">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2 white">1 Product Manager</p>
+                    </div>
+                </div>
+                <hr class="solid">
+                <p class="title title_24 mt10 mb20 white">Your package Includes:</p>
+                <div class="icon_title2">
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p  class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                </div>
+                <a href="#" class="white_button">
+                    <span>Contact Us</span>
+                    <img src="arrow-right-02 (3).svg" alt="Arrow Icon">
+                </a>
+                
+        </div>
+            
+            
+            <div class="pricing-card">
+                <h2 class="title_32 ">Design Enterprise</h2>
+                
+                <p class="title_14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr class="solid">
+                <p class="title_16 mt20">From</p>
+                <span class="title_1">Custom price</span>
+                </p>
+                <p class="title_16 mb20">Unlock savings<span class="italic">12% quarterly, 24% yearly!</span></p>
+                <hr class="solid">
+                <p class="title title_24 mt20 mb20">Team configuration</p>
+                <div class="icon-title mb20">
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2">1 Product Manager</p>
+                    </div>
+                </div>
+                <hr class="solid">
+                <p class="title title_24 mt10 mb20">Your package Includes:</p>
+                <div class="icon_title2">
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p  class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                </div>
+                <a href="#" class="contact-btn">
+                    <span>Contact Us</span>
+                    <img src="arrow-right-02 (3).svg" alt="Arrow Icon">
+                </a>
+        
+        </div>
+
+        
+        </div>
+        <div class="pricing-container" id="development">
+            <div class="pricing-card">
+                <h2 class="title_32">Dev Starter</h2>
+                <p class="title_14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr class="solid">
+                <p class="title_16 mt20">From</p>
+                <span class="price" data-monthly="1" data-yearly="2">$1</span>
+                <span class="monthly-text title_16 mb10">/Per Monthly</span>
+                    <span class="yearly-text title_16 mb10" style="display: none;">/Per Yearly</span>
+                </p>
+                <p class="title_16 mb20">Per month <span class="italic">Billed Manually</span></p>
+                <hr class="solid">
+                <p class="title title_24 mt20 mb20">Team configuration</p>
+                <div class="icon-title mb20">
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2">1 Product Manager</p>
+                    </div>
+                </div>
+                <hr class="solid">
+                <p class="title title_24 mt10 mb20">Your package Includes:</p>
+                <div class="icon_title2">
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p  class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                </div>
+                <a href="#" class="contact-btn">
+                    <span>Contact Us</span>
+                    <img src="arrow-right-02 (3).svg" alt="Arrow Icon">
+                </a>
+                
+            
+            </div>
+            <div class="pricing-card growth">
+                <h2 class="title_32 white"> Dev Growth</h2>
+                <span class="customer-fav black">Customer Favorite</span>
+                <p class="title_14 mt-20 white"> </style>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr class="solid">
+                <p class="title_16 mt20 white">From</p>
+                <span class="price white" data-monthly="300" data-yearly="350">$2050</span>
+                <span class="monthly-text title_16 mb10 white">/Per Monthly</span>
+                <span class="yearly-text title_16 mb10 white" style="display: none;">/Per Yearly</span>
+                </p>
+                <p class="title_16 mb20 white">Per month <span class="italic white">Billed Manually</span></p>
+                <hr class="solid">
+                <p class="title title_24 mt20 mb20 white">Team configuration</p>
+                <div class="icon-title mb20">
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2 white ">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2 white">1 Product Manager</p>
+                    </div>
+                </div>
+                <hr class="solid">
+                <p class="title title_24 mt10 mb20 white">Your package Includes:</p>
+                <div class="icon_title2">
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p  class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                </div>
+                <a href="#" class="white_button">
+                    <span>Contact Us</span>
+                    <img src="arrow-right-02 (3).svg" alt="Arrow Icon">
+                </a>
+            </div>
+            <div class="pricing-card">
+                <h2 class="title_32 ">Dev Enterprise</h2>
+                
+                <p class="title_14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr class="solid">
+                <p class="title_16 mt20">From</p>
+                <span class="title_1">Custom price</span>
+                </p>
+                <p class="title_16 mb20">Unlock savings<span class="italic">12% quarterly, 24% yearly!</span></p>
+                <hr class="solid">
+                <p class="title title_24 mt20 mb20">Team configuration</p>
+                <div class="icon-title mb20">
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2">1 Product Manager</p>
+                    </div>
+                </div>
+                <hr class="solid">
+                <p class="title title_24 mt10 mb20">Your package Includes:</p>
+                <div class="icon_title2">
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p  class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                </div>
+                <a href="#" class="contact-btn">
+                    <span>Contact Us</span>
+                    <img src="arrow-right-02 (3).svg" alt="Arrow Icon">
+                </a>
+            </div>
+        </div>
+        <div class="pricing-container" id="marketing">
+            <div class="pricing-card">
+                <h2 class="title_32">Mk Starter</h2>
+                <p class="title_14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr class="solid">
+                <p class="title_16 mt20">From</p>
+                <span class="price" data-monthly="550" data-yearly="6000">$550</span>
+                <span class="monthly-text title_16 mb10">/Per Monthly</span>
+                    <span class="yearly-text title_16 mb10" style="display: none;">/Per Yearly</span>
+                </p>
+                <p class="title_16 mb20">Per month <span class="italic">Billed Manually</span></p>
+                <hr class="solid">
+                <p class="title title_24 mt20 mb20">Team configuration</p>
+                <div class="icon-title mb20">
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2">1 Product Manager</p>
+                    </div>
+                </div>
+                <hr class="solid">
+                <p class="title title_24 mt10 mb20">Your package Includes:</p>
+                <div class="icon_title2">
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p  class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                </div>
+                <a href="#" class="contact-btn">
+                    <span>Contact Us</span>
+                    <img src="arrow-right-02 (3).svg" alt="Arrow Icon">
+                </a>
+                
+            </div>
+            <div class="pricing-card growth">
+                <h2 class="title_32 white">Mk Growth</h2>
+                <span class="customer-fav black">Customer Favorite</span>
+                <p class="title_14 mt-20 white"> </style>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr class="solid">
+                <p class="title_16 mt20 white">From</p>
+                <span class="price white" data-monthly="2050" data-yearly="12000">$2050</span>
+                <span class="monthly-text title_16 mb10 white">/Per Monthly</span>
+                <span class="yearly-text title_16 mb10 white" style="display: none;">/Per Yearly</span>
+                </p>
+                <p class="title_16 mb20 white">Per month <span class="italic white">Billed Manually</span></p>
+                <hr class="solid">
+                <p class="title title_24 mt20 mb20 white">Team configuration</p>
+                <div class="icon-title mb20">
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2 white ">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2 white">1 Product Manager</p>
+                    </div>
+                </div>
+                <hr class="solid">
+                <p class="title title_24 mt10 mb20 white">Your package Includes:</p>
+                <div class="icon_title2">
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p  class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                </div>
+                <a href="#" class="white_button">
+                    <span>Contact Us</span>
+                    <img src="arrow-right-02 (3).svg" alt="Arrow Icon">
+                </a>
+            </div>
+            <div class="pricing-card">
+                <h2 class="title_32 ">Mk Enterprise</h2>
+                
+                <p class="title_14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr class="solid">
+                <p class="title_16 mt20">From</p>
+                <span class="title_1">Custom price</span>
+                </p>
+                <p class="title_16 mb20">Unlock savings<span class="italic">12% quarterly, 24% yearly!</span></p>
+                <hr class="solid">
+                <p class="title title_24 mt20 mb20">Team configuration</p>
+                <div class="icon-title mb20">
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2">1 Product Manager</p>
+                    </div>
+                </div>
+                <hr class="solid">
+                <p class="title title_24 mt10 mb20">Your package Includes:</p>
+                <div class="icon_title2">
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p  class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                </div>
+                <a href="#" class="contact-btn">
+                    <span>Contact Us</span>
+                    <img src="arrow-right-02 (3).svg" alt="Arrow Icon">
+                </a>
+            </div>
+        </div>
+        <div class="pricing-container" id="ai">
+            <div class="pricing-card">
+                <h2 class="title_32">AI  Starter</h2>
+                <p class="title_14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr class="solid">
+                <p class="title_16 mt20">From</p>
+                <span class="price" data-monthly="550" data-yearly="6000">$550</span>
+                <span class="monthly-text title_16 mb10">/Per Monthly</span>
+                    <span class="yearly-text title_16 mb10" style="display: none;">/Per Yearly</span>
+                </p>
+                <p class="title_16 mb20">Per month <span class="italic">Billed Manually</span></p>
+                <hr class="solid">
+                <p class="title title_24 mt20 mb20">Team configuration</p>
+                <div class="icon-title mb20">
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2">1 Product Manager</p>
+                    </div>
+                </div>
+                <hr class="solid">
+                <p class="title title_24 mt10 mb20">Your package Includes:</p>
+                <div class="icon_title2">
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p  class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                </div>
+                <a href="#" class="contact-btn">
+                    <span>Contact Us</span>
+                    <img src="arrow-right-02 (3).svg" alt="Arrow Icon">
+                </a>
+                
+            </div>
+            <div class="pricing-card growth">
+                <h2 class="title_32 white">AI Growth</h2>
+                <span class="customer-fav black">Customer Favorite</span>
+                <p class="title_14 mt-20 white"> </style>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr class="solid">
+                <p class="title_16 mt20 white">From</p>
+                <span class="price white" data-monthly="2050" data-yearly="12000">$2050</span>
+                <span class="monthly-text title_16 mb10 white">/Per Monthly</span>
+                <span class="yearly-text title_16 mb10 white" style="display: none;">/Per Yearly</span>
+                </p>
+                <p class="title_16 mb20 white">Per month <span class="italic white">Billed Manually</span></p>
+                <hr class="solid">
+                <p class="title title_24 mt20 mb20 white">Team configuration</p>
+                <div class="icon-title mb20">
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2 white ">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2 white">1 Product Manager</p>
+                    </div>
+                </div>
+                <hr class="solid">
+                <p class="title title_24 mt10 mb20 white">Your package Includes:</p>
+                <div class="icon_title2">
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p  class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16 white">1 Product Manager</p>
+                    </div>
+                </div>
+                <a href="#" class="white_button">
+                    <span>Contact Us</span>
+                    <img src="arrow-right-02 (3).svg" alt="Arrow Icon">
+                </a>
+            </div>
+            <div class="pricing-card">
+                <h2 class="title_32 ">AI Enterprise</h2>
+                
+                <p class="title_14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <hr class="solid">
+                <p class="title_16 mt20">From</p>
+                <span class="title_1">Custom price</span>
+                </p>
+                <p class="title_16 mb20">Unlock savings<span class="italic">12% quarterly, 24% yearly!</span></p>
+                <hr class="solid">
+                <p class="title title_24 mt20 mb20">Team configuration</p>
+                <div class="icon-title mb20">
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title-item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16_2">1 Product Manager</p>
+                    </div>
+                </div>
+                <hr class="solid">
+                <p class="title title_24 mt10 mb20">Your package Includes:</p>
+                <div class="icon_title2">
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Senior Designer</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p  class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                    <div class="icon_title_2_item">
+                        <img src="checkmark-circle-02 (3).png" alt="">
+                        <p class="title_16">1 Product Manager</p>
+                    </div>
+                </div>
+                <a href="#" class="contact-btn">
+                    <span>Contact Us</span>
+                    <img src="arrow-right-02 (3).svg" alt="Arrow Icon">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+      function switchTab(tab) {
+            document.querySelectorAll('.pricing-container').forEach(container => container.classList.remove('active-container'));
+            document.getElementById(tab).classList.add('active-container');
+            document.querySelectorAll('.tab').forEach(button => button.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+
+        function togglePricing(type) {
+            // Update the price based on monthly or yearly selection
+            document.querySelectorAll('.price').forEach(price => {
+                if (type === 'yearly') {
+                    let yearlyPrice = price.getAttribute('data-yearly');
+                    if (yearlyPrice) {
+                        price.textContent = `$${yearlyPrice}`;
+                    }
+                } else {
+                    let monthlyPrice = price.getAttribute('data-monthly');
+                    price.textContent = `$${monthlyPrice}`;
+                }
+            });
+
+            // Hide or show the correct labels (Per Monthly or Per Yearly)
+            document.querySelectorAll('.monthly-text').forEach(span => {
+                span.style.display = type === 'monthly' ? 'inline' : 'none';
+            });
+
+            document.querySelectorAll('.yearly-text').forEach(span => {
+                span.style.display = type === 'yearly' ? 'inline' : 'none';
+            });
+
+            // Toggle the active state of the buttons
+            document.querySelectorAll('.toggle-btn').forEach(button => button.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+
+    </script>
+</body>
+</html>
